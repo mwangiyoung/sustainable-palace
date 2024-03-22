@@ -54,8 +54,8 @@ const validateInputs = () =>{
         
         }
 
-        // window.location.href = `${window.location.origin}/login.html`;
-                window.location.href = "login.html"
+        window.location.href = `${window.location.origin}/sustainable-palace/login.html`;
+                // window.location.href = "login.html"
 
 
      }
