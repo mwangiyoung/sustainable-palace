@@ -29,7 +29,7 @@ const validateInputs = () => {
   users.find((userItem) => {
     if (user.username === userItem.username) {
       localStorage.setItem("currentUser", JSON.stringify(user));
-      window.location.href = "http://127.0.0.1:5500/shop.html";
+      window.location.href = `${window.location.origin}/shop.html`;
     }
   });
 };
